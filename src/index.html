@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <!-- CABEÇALHO -->
+    <header
+      class="w-full fixed top-0 *:text-xl lg:px-32 px-5 z-50  flex items-center h-24 p-5 justify-around bg-escuro-100"
+    >
+      <!-- LOGO -->
+      <a href="">
+        <img src="./img/logo/logo-hub-clara.svg" alt="" class="size-32" />
+      </a>
+      <!-- barra de navegação -->
+      <nav
+        class="*:text-white lg:flex hidden *: *:py-1 *:border-white items-center *:text-lg *:font-semibold space-x-12"
+      >
+        <a href="" class="hover:border-b-4">Graduação</a>
+        <a href="" class="hover:border-b-4">MBA</a>
+        <a href="" class="hover:border-b-4">Professores</a>
+        <a href="" class="hover:border-b-4">Curso gratuito</a>
+        <a href="" class="hover:border-b-4">Quem somos</a>
+      </nav>
+      <a
+        href=""
+        class="hover:bg-white hover:text-black text-white transition-all duration-1000 border border-white rounded-full font-semibold px-5 py-2 text-center lg:flex hidden items-center"
+        >Área do aluno</a
+      >
+    </header>
+    <!-- HERO -->
+    <section class="flex flex-col items-center gap-10 px-5 justify-center mt-36">
+      <div class="lg:w-[1000px] w-full text-center">
+        <h1 class="text-white lg:text-5xl text-3xl font-semibold">
+          Torne o seu negócio em uma 
+          <span class="text-sangue-100">máquina de vendas</span>
+          <br>
+          <span class="text-2xl">Aumente o volume</span>
+        </h1>
+      </div>
+      <div class="bg-escuro-100/55 h-96 lg:w-[600px] w-full">
+        
+        <img src="./img/mp4/vls.jpg" alt="" class="w-full">
+      </div>
+      <div class="lg:px-32 w-full px-5 text-center text-2xl space-y-10 font-semibold">
+        <p class="text-gray-200">
+          <span class="text-white lg:font-black font-bold"
+            >Vendas são o oxigênio de qualquer empresa – simplesmente não existe
+            negócio sem clientes.</span
+          >
+          Este é o único MBA que mais cresceu empresas no Brasil e transformou a vida de milhares empreendedores!
+        </p>
+        <div
+          class="w-auto flex lg:flex-row flex-col justify-center gap-5 self-start *:flex *:items-center *:justify-between *:px-5 *:py-2 *:rounded-md *:gap-2"
+        >
+          <article class="bg-escuro-100">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-sangue-100"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-white text-base">MBA Reconhecido Pelo MEC</span>
+          </article>
+          <article class="bg-escuro-100">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-sangue-100"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-white text-base"
+              >Faculdade Hub Nota 5 no MEC</span
+            >
+          </article>
+          <article class="bg-escuro-100">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-sangue-100"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-white text-base">Conclua em 30 dias</span>
+          </article>
+          <article class="bg-escuro-100">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-sangue-100"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-white text-base">Ganhe uma consultoria</span>
+          </article>
+        </div>
+      </div>
+      <a
+        href="https://pay.kiwify.com.br/cpcz8Nh"
+        class="bg-sangue-100 shadow-2xl lg:w-auto w-full text-center shadow-sangue-100 flex items-center basis-0 text-white font-black lg:text-lg text-base px-12 py-5 rounded-md"
+      >
+        QUERO GARANTIR A MINHA VAGA
+      </a>
+
+      <div class="lg:mt-20"></div>
+    </section>
+
+    <!--  -->
+    <div class="lg:px-32 w-full lg:w-auto px-5 flex  justify-center">
+      <hr class="w-full border-escuro-100 border text-red-500" />
+    </div>
+    <section class="flex lg:flex-row flex-col justify-end w-full items-center relative">
+      <img
+        src="https://www.faculdadehub.com.br/images/bg-sobre_2bg-sobre.webp"
+        alt=""
+        class="lg:absolute static lg:-z-10 w-full"
+      />
+      <div
+        class="z-10 float-right space-y-12 lg:w-3/4 w-full lg:pl-80 lg:pr-52 px-5 *:text-white lg:pt-56"
+      >
+        <div class="space-y-5">
+          <h2 class="text-white font-bold text-3xl">MBA em apenas 30 dias</h2>
+          <p class="text-xl font-semibold">
+            Esse é o primeiro MBA da Faculdade HUB que dá a você flexibilidade
+            total nos estudos. Você pode concluir o treinamento em apenas 30 dias se
+            estiver com bastante tempo livre ou em até 4 meses se estiver com a
+            agenda apertada.
+          </p>
+        </div>
+        <div class="space-y-5">
+          <h2 class="text-white font-bold text-3xl">
+            Consultoria para seu negócio
+          </h2>
+          <p class="text-xl font-semibold">
+            Esse é o único MBA em Vendas e Marketing do Brasil que inclui uma
+            consultoria com nossos especialistas para que você consiga
+            implementar o conhecimento do curso na sua empresa, de forma a
+            aumentar as vendas de seu negócio
+          </p>
+        </div>
+        <a
+          href="https://pay.kiwify.com.br/cpcz8Nh"
+          class="bg-sangue-100 shadow-2xl lg:w-[420px] w-full h-auto self-start shadow-sangue-100 flex items-center basis-0 text-white font-black lg:text-lg text-base px-12 py-5 rounded-md"
+        >
+          QUERO GARANTIR A MINHA VAGA
+        </a>
+      </div>
+    </section>
+    <div class="px-32 flex justify-center mt-20">
+      <hr class="w-full border-escuro-100 border text-red-500" />
+    </div>
+    <!--  -->
+    <section class="flex flex-col items-center gap-10 justify-center mt-20 px-5">
+      <div class="lg:w-[1000px] w-full text-center">
+        <h1 class="text-white lg:text-5xl text-2xl font-bold">
+          O que dizem <br />
+          <span class="text-sangue-100">Os alunos do MBA</span>
+        </h1>
+      </div>
+      <div class="flex lg:flex-row flex-col gap-5">
+        <div class=" lg:h-[400px]  lg:w-[500px] w-full">
+          <video src="./img/mp4/PROVA SOCIAL 1.mp4" controls></video>
+        </div>
+        <div class=" lg:h-[400px] lg:w-[500px] w-full">
+          <video src="./img/mp4/PROVA SOCIAL 2.mp4" controls></video>
+        </div>
+      </div>
+
+      <div class="mt-20"></div>
+    </section>
+    <!--  -->
+    <div class="lg:px-32 px-5 flex justify-center mt-20">
+      <hr class="w-full border-escuro-100 border text-red-500" />
+    </div>
+    <section class="px-5 flex items-center justify-center space-y-20 flex-col mt-20">
+      <h2 class="text-white font-semibold lg:text-5xl text-3xl text-center">Seus professores</h2>
+      <div
+        class="w-full grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4 justify-items-center gap-y-5 lg:px-72  *:rounded-lg *:overflow-hidden"
+      >
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4  h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/flavio_1.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Flávio Augusto</h3>
+            <p>Um dos melhores vendedores do Brasil e CEO da Wiser Educação</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/aaron.png" alt="" />
+          <div class="py-5 space-y-2 px-2 text-white">
+            <h3 class="text-xl font-semibold">Aaron Ross</h3>
+            <p class="text-sm">
+              Autor do livro best-seller “Receita Previsível” considerada a
+              “bíblia de vendas do Vale do Silício”
+            </p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/sean.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Sean Ellis</h3>
+            <p>
+              Autor do best-seller “Hacking Growth” e professor em Harvard e
+              Berkeley
+            </p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/tom.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Tom Leite</h3>
+            <p>
+              CEO do Grupo Trigo(Spoleto, China in Box, Gendai) e especialista
+              em Franquias
+            </p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/dener.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Dener Lippert</h3>
+            <p>CEO da V4 Company e autor do livro “Cientista do Marketing”</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/caio.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Caio Carneiro</h3>
+            <p>Especialista em Vendas e criador do Vende-C</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/thiago_1.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Thiago Reis</h3>
+            <p>CEO da Growth Machine e especialista em Prospecção e Vendas</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/renato.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Renato Camargo</h3>
+            <p>Renato Camargo</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/rafael.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Rafael Kiso</h3>
+            <p>CEO do Mlabs e especialista em redes sociais</p>
+          </div>
+        </article>
+        <article
+          class="bg-escuro-100 lg:w-[182.4px] w-3/4 h-80 flex flex-col justify-start"
+        >
+          <img src="./img/pessoas/tomas.png" alt="" />
+          <div class="py-5 space-y-3 px-2 text-white">
+            <h3 class="text-xl font-semibold">Tomas Duarte</h3>
+            <p>CEO da Track.Co</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!--  -->
+    <section class="flex items-center justify-center space-y-20 flex-col mt-20">
+      <h2 class="text-white font-semibold lg:text-5xl text-3xl">
+        Para quem é esse <span class="text-sangue-100">MBA?</span>
+      </h2>
+      <div class="grid lg:grid-cols-2 grid-cols-1 justify-items-center gap-6 lg:px-36 px-5">
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Quem tem um negócio estabelecido e deseja aumentar suas vendas
+          </p>
+        </div>
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Líderes comerciais que necessitam melhorar a performance de suas
+            equipes
+          </p>
+        </div>
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Pessoas que querem empreender e precisam aprender a dar os primeiros
+            passos
+          </p>
+        </div>
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Quem quer desenvolver habilidades de liderança empresarial
+          </p>
+        </div>
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Profissionais da área comercial e de marketing que querem ocupar
+            cargos de liderança
+          </p>
+        </div>
+        <div class="flex items-center space-x-5">
+          <img src="./img/check-paraquem.svg" alt="" />
+          <p class="text-white text-xl">
+            Pessoas que sabem da importância de um MBA para ganhar mais
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="flex lg:flex-row flex-col justify-around items-center gap-5 px-5 lg:px-36 mt-32">
+      <div class="text-white space-y-8">
+        <h2 class="text-5xl">Faculdade HUB <br />Nota máxima no MEC</h2>
+        <p class="text-xl">
+          Além de aprender com professores que são referência em suas áreas de
+          atuação, você também vai ser reconhecido no mercado como um
+          profissional altamente qualificado, que estudou numa instituição de
+          ensino que foi avaliada com a nota máxima pelo MEC.
+          <br />
+          <br />
+          Suas chances de construir um negócio bem-sucedido ou uma carreira
+          muito bem-remunerada vão aumentar muito!
+        </p>
+      </div>
+      <img
+        src="https://www.faculdadehub.com.br/images/hub-img-mec_1.webp"
+        alt=""
+      />
+    </section>
+    <!--  -->
+    <section class="w-full flex lg:flex-row flex-col gap-5 bg-white lg:px-32 px-5 lg:space-x-10 py-20">
+      <div class="space-y-5">
+        <h2 class="font-bold text-5xl">
+          Quanto ganham profissionais de
+          <span class="text-sangue-100">marketing e vendas</span>
+        </h2>
+        <p class="text-2xl">
+          São profissionais muito bem-remunerados e com excelentes perspectivas
+          de carreira! Segundo a consultoria de recrutamento Robert Half, esses
+          são os salários fixos mensais* em grandes empresas na cidade de São
+          Paulo:
+          <br /><br />
+          <span class="text-slate-600 text-lg"
+            >*Além do salário fixo, esses executivos também recebem bônus, que
+            não foram considerados pela Robert Half</span
+          >
+        </p>
+      </div>
+      <!--  -->
+      <div class="w-full *:w-full flex flex-col space-y-5">
+        <div class="border-2 border-black rounded-full py-5 px-10">
+          <h2 class="text-2xl font-bold">DIRETOR COMERCIAL:</h2>
+          <p class="text-lg">DE R$ 26.300 A R$ 46.600</p>
+        </div>
+
+        <div class="border-2 border-black rounded-full py-5 px-10">
+          <h2 class="text-2xl font-bold">GERENTE NACIONAL DE VENDAS:</h2>
+          <p class="text-lg">DE R$ 17.300 A R$ 30.700</p>
+        </div>
+
+        <div class="border-2 border-black rounded-full py-5 px-10">
+          <h2 class="text-2xl font-bold">DIRETOR DE MARKETING:</h2>
+          <p class="text-lg">DE R$ 26.250 A R$ 46.650</p>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="w-full flex flex-col mt-20 space-y-8 items-center">
+      <h2 class="font-bold text-5xl text-white">
+        Bônus
+      </h2>
+
+      <div class="flex lg:flex-row flex-col items-center lg:px-32 gap-5 px-5 space-x-8">
+        <img src="./img/CARDS/bonus4.png" alt="" />
+        <div class="flex flex-col space-y-5 text-white">
+          <h2 class="lg:text-4xl text-2xl font-semibold">Aula com o Lobo de Wall Street</h2>
+
+          <p class="text-xl">
+            Tenha acesso a uma série de aulas exclusivas sobre Vendas com Jordan
+            Belfort, cuja trajetória foi retratada no filme “O Lobo de Wall
+            Street”, de Martin Scorsese. Belfort é escritor, palestrante e
+            especialista em Vendas.
+          </p>
+        </div>
+      </div>
+      <div class="flex lg:flex-row flex-col items-center lg:px-32 gap-5 px-5 space-x-8">
+        <img src="./img/CARDS/INFLUENCIAR.jpg" alt="" class="w-[540px]" />
+        <div class="flex flex-col space-y-5 text-white">
+          <h2 class="lg:text-4xl text-2xl font-semibold">
+            Como fazer com que o mundo conheça o seu negócio
+          </h2>
+
+          <p class="text-xl">
+            Tenha acesso a estratégias para fazer com que influenciadores
+            atraiam clientes certos para o teu negócio
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="px-32 flex justify-center mt-20">
+      <hr class="w-full border-escuro-100 border text-red-500" />
+    </div>
+
+    <!--  -->
+    <section class="flex flex-col items-center gap-10 justify-center mt-20 px-5">
+      <div class="lg:w-[1000px] w-full text-center">
+        <h1 class="text-white lg:text-5xl text-2xl font-bold">
+          O que dizem <br />
+          <span class="text-sangue-100">Os alunos do MBA</span>
+        </h1>
+      </div>
+      <div class="flex lg:flex-row flex-col gap-5">
+        <div class=" lg:h-[400px]  lg:w-[500px] w-full">
+          <video src="./img/mp4/PROVA SOCIAL 1.mp4" controls></video>
+        </div>
+        <div class=" lg:h-[400px] lg:w-[500px] w-full">
+          <video src="./img/mp4/PROVA SOCIAL 2.mp4" controls></video>
+        </div>
+      </div>
+
+      <div class="mt-20"></div>
+    </section>
+    <!--  -->
+    <section class="w-full bg-white px-5 py-5 flex lg:flex-row flex-col items-center justify-end h-[500px] relative">
+      <img
+        src="https://www.faculdadehub.com.br/images/bg-para-mim_1bg-para-mim.webp"
+        alt=""
+        class="lg:absolute hidden lg:flex static  top-0 w-full h-auto"
+      />
+      <div
+        class=" z-10  space-y-8 lg:w-3/4 w-full lg:px-52 h-full flex flex-col justify-center"
+      >
+        <h3 class="lg:text-5xl text-3xl font-bold">
+          Não sou formado em Marketing e nunca trabalhei com Vendas. <br />
+          <span class="text-sangue-100">Esse MBA é para mim?</span>
+        </h3>
+        <p class="lg:text-xl text-lg">
+          Sim! O treinamento foi pensado para que você aumente seu nível de
+          conhecimento gradualmente. Ao longo da pós-graduação, você terá acesso
+          a informações e insights que até mesmo profissionais experientes
+          desconhecem. Ao final, terá todas as ferramentas necessárias para
+          aumentar as vendas de sua empresa.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <section
+      class="w-full flex items-start justify-start flex-col lg:h-[650px] relative"
+    >
+      <img
+        src="https://www.faculdadehub.com.br/images/bg-estude_2bg-estude.webp"
+        alt=""
+        class="absolute w-full h-full -z-10 lg:flex hidden"
+      />
+      <div
+        class="text-white py-5 space-y-8 flex-col  z-10  flex h-full lg:pl-32 px-5 lg:pr-80 justify-center w-full lg:w-3/4"
+      >
+        <h1 class="lg:text-5xl text-3xl font-bold">
+          Estude com <span class="text-sangue-100">liberdade</span>
+        </h1>
+        <p class="text-2xl">
+          Você terá a chance de estudar onde, quando e como quiser. Garantindo
+          sua vaga, você receberá login e senha para acessar a plataforma do MBA
+          de qualquer lugar do mundo.
+          <br /><br />
+          Não se preocupe se você perder algum encontro ao vivo: todas as aulas
+          ficarão gravadas e você poderá acessá-las quantas vezes quiser,
+          durante 18 meses.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <div class="flex justify-center space-x-10 px-5 mb-5">
+      <div
+        class="bg-escuro-100/55 space-y-5 h-[550px] justify-between lg:w-96 w-full borde-white border flex items-center flex-col p-5"
+      >
+        <button class="bg-gray-300 p-2 text-center text-lg font-semibold w-52">
+          OFERTA EXCLUSIVA
+        </button>
+        <span class="text-4xl text-center font-bold text-white"
+          >94% <span class="text-sangue-100">off por HOJE</span></span
+        >
+        <span
+          class="border text-3xl text-ricagem border-sangue-100 text-white py-2 px-8 font-semibold rounded-md"
+          >R$12.000</span
+        >
+        <span class="flex items-center text-white">
+          <span
+            >por 18x <br />
+            de R$</span
+          >
+          <span class="text-7xl font-bold">397</span>
+        </span>
+        <span class="text-white text-center text-lg"
+          ><span class="font-bold">R$ 11.600 </span>de desconto à vista em
+          parcela única no PIX, boleto ou cartão
+        </span>
+        <a
+          href="https://pay.kiwify.com.br/cpcz8Nh"
+          class="w-full bg-sangue-100 rounded-md text-lg text-center font-semibold text-white"
+          >QUERO PAGAR A VISTA <br />
+          EM PARCELA ÚNICA</a
+        >
+      </div>
+    </div>
+    <!--  -->
+    <section class="w-full bg-escuro-100 flex lg:flex-row flex-col justify-around gap-5 py-20 px-5 lg:px-80 items-center gap-x-10">
+      <img src="./img/7dias.jpg" alt="" />
+      <div class="text-white space-y-5">
+        <h3 class="text-5xl font-semibold">Seu risco é zero!</h3>
+        <p class="text-2xl font-thin">
+          Com esse método é impossível você não vender <span class="font-bold">4X mais</span>. Se seguires o passo a passo e sua empresa não vender 4X mais nos próximos <span class="font-bold">30 dias</span>  devolveremos o seu dinheiro e podes ficar com o treinamento, <span class="font-bold">ENTÃO, ACHAS ISSO JUSTO?</span>
+        </p>
+      </div>
+    </section>
+    <!--  -->
+    <section class="flex lg:flex-row flex-col lg:px-44 px-5 py-20 lg:space-x-20 gap-5">
+      <img src="./img/FaQ/66685f1781c50f6694832ed6_faq.webp" alt="" class="h-auto w-32 self-start">
+      <div class="flex flex-col gap-y-5">
+        <!-- QUESTION -->
+        <button class="text-white space-y-5 w-full border p-3 text-left rounded-lg">
+          <div class="text-2xl w-full "><span>Como assisto às aulas do MBA?</span></div>
+          <!-- ANSWER -->
+           <p class="text-xl text-slate-300">Assim que seu pagamento for concluído, você vai receber login e senha para acessar uma plataforma chamada Kiwify. Todo conteúdo do MBA será entregue dentro dessa plataforma. </p>
+        </button>
+        <!-- QUESTION -->
+        <button class="text-white space-y-5 w-full border p-3 text-left rounded-lg">
+          <div class="text-2xl w-full "><span>Por quanto tempo terei acesso ao curso?</span></div>
+          <!-- ANSWER -->
+           <p class="text-xl text-slate-300">Você terá acesso às aulas e aos demais materiais de estudo durante 18 meses.  </p>
+        </button>
+        <!-- QUESTION -->
+        <button class="text-white space-y-5 w-full border p-3 text-left rounded-lg">
+          <div class="text-2xl w-full "><span>Quais são as formas de pagamento?</span></div>
+          <!-- ANSWER -->
+           <p class="text-xl text-slate-300">Você pode pagar com cartão de crédito, múltiplos cartões, boleto ou PIX.</p>
+        </button>
+        <!-- QUESTION -->
+        <button class="text-white space-y-5 w-full border p-3 text-left rounded-lg">
+          <div class="text-2xl w-full "><span>Não sou formado em Marketing e Vendas nem nunca trabalhei na área.  Esse MBA é para mim?</span></div>
+          <!-- ANSWER -->
+           <p class="text-xl text-slate-300">Sim! Nas disciplinas iniciais do MBA, todos os alunos terão a chance de aprender o essencial sobre Marketing e Vendas, de forma progressiva. </p>
+        </button>
+       
+      </div>
+    </section>
+    <div class="px-32 flex justify-center mt-20">
+      <hr class="w-full border-escuro-100 border text-red-500" />
+    </div>
+    <!--  -->
+    <section class="flex flex-col items-center gap-10 justify-center mt-20 px-5">
+      <div class="lg:w-[1000px] w-full text-center">
+        <h1 class="text-white lg:text-5xl text-3xl font-semibold">
+          MBA em Vendas, Marketing e Geração de Valor com
+          <span class="text-sangue-100">Flávio Augusto</span>
+        </h1>
+      </div>
+      <div class="flex space-x-10">
+        <div
+          class="bg-escuro-100/55 space-y-5 h-[550px] justify-between lg:w-96 w-full borde-white border flex items-center flex-col p-5"
+        >
+          <button class="bg-gray-300 p-2 text-center text-lg font-semibold w-52">
+            OFERTA EXCLUSIVA
+          </button>
+          <span class="text-4xl text-center font-bold text-white"
+            >94% <span class="text-sangue-100">off por HOJE</span></span
+          >
+          <span
+            class="border text-3xl text-ricagem border-sangue-100 text-white py-2 px-8 font-semibold rounded-md"
+            >R$12.000</span
+          >
+          <span class="flex items-center text-white">
+            <span
+              >por 18x <br />
+              de R$</span
+            >
+            <span class="text-7xl font-bold">397</span>
+          </span>
+          <span class="text-white text-center text-lg"
+            ><span class="font-bold">R$ 11.600 </span>de desconto à vista em
+            parcela única no PIX, boleto ou cartão
+          </span>
+          <a
+            href="https://pay.kiwify.com.br/cpcz8Nh"
+            class="w-full bg-sangue-100 rounded-md text-lg text-center font-semibold text-white"
+            >QUERO PAGAR A VISTA <br />
+            EM PARCELA ÚNICA</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-20"></div>
+    </section>
+  </body>
+</html>
